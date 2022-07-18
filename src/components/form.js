@@ -67,7 +67,7 @@ function Form() {
         {submitted && !values.email ? <span className="label-text-alt text-red-600">Please enter your Email</span> : null}
         </label>
       </div>
-      <button className="btn btn-success">Success</button>
+      <button className="btn bg-blue-500 hover:bg-blue-700 text-black">Success</button>
       </form>
     </div>
   );
